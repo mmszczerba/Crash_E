@@ -1,0 +1,23 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\usn\IntelligentRTSproject\Code\libs\Ada_Drivers_Library\examples\MicroBit_v2\ravenscar\Crash_E_sense_think_act\Crash_E_sense_think_act.gpr
+20241026143032 e883e1a168865db1ac43da41c909244b
+C:\usn\IntelligentRTSproject\Code\libs\Ada_Drivers_Library\boards\MicroBit_v2\microbit_v2_full.gpr
+20241016090040 ca836e1d09e95d844b0a2ab40d87b24d
+[BOUND OBJECT FILES]
+C:\usn\IntelligentRTSproject\Code\libs\Ada_Drivers_Library\examples\MicroBit_v2\ravenscar\Crash_E_sense_think_act\obj\mycontroller_empty.o
+C:\usn\IntelligentRTSproject\Code\libs\Ada_Drivers_Library\examples\MicroBit_v2\ravenscar\Crash_E_sense_think_act\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\usn\IntelligentRTSproject\Code\libs\Ada_Drivers_Library\examples\MicroBit_v2\ravenscar\Crash_E_sense_think_act\obj\
+-LC:\usn\IntelligentRTSproject\Code\libs\Ada_Drivers_Library\examples\MicroBit_v2\ravenscar\Crash_E_sense_think_act\obj\
+-LC:\usn\IntelligentRTSproject\Code\libs\Ada_Drivers_Library\boards\MicroBit_v2\obj\full_lib_Debug\
+-LC:\users\mgdsz\appdata\local\alire\cache\toolchains\gnat_arm_elf_14.1.3_184f9b28\arm-eabi\lib\gnat\embedded-nrf52833\adalib\
+-static
+-static-libgcc
+C:\users\mgdsz\appdata\local\alire\cache\toolchains\gnat_arm_elf_14.1.3_184f9b28\arm-eabi\lib\gnat\embedded-nrf52833\adalib\libgnarl.a
+C:\users\mgdsz\appdata\local\alire\cache\toolchains\gnat_arm_elf_14.1.3_184f9b28\arm-eabi\lib\gnat\embedded-nrf52833\adalib\libgnat.a

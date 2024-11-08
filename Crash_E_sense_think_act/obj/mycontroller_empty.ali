@@ -1,0 +1,440 @@
+V "GNAT Lib v14"
+A -gnatA
+A --RTS=C:\users\mgdsz\appdata\local\alire\cache\toolchains\gnat_arm_elf_14.1.3_184f9b28\arm-eabi\lib\gnat\embedded-nrf52833\
+A -mlittle-endian
+A -mthumb
+A -mfloat-abi=hard
+A -mfpu=fpv4-sp-d16
+A -mcpu=cortex-m4
+A -fno-tree-loop-distribute-patterns
+A -g
+A -gnat2022
+A -gnateDPROFILING=false
+A -g
+A -mlibarch=armv7e-m+fp
+A -march=armv7e-m+fp
+P DB LC TF  SS ZX
+
+RN
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FIXED_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_RELATIVE_DELAY
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASKING
+RV STATIC_PRIORITIES
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV MAX_TASKS=3
+
+U mycontroller_empty%b	mycontroller_empty.adb	8aeddb3b OO PK
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.real_time.delays%s  a-retide.adb		a-retide.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W dfr0548%s		dfr0548.adb		dfr0548.ali
+W microbit%s		microbit.ads		microbit.ali
+W microbit.console%s	microbit-console.adb	microbit-console.ali
+W microbit.displayrt%s	microbit-displayrt.adb	microbit-displayrt.ali
+W microbit.motordriver%s  microbit-motordriver.adb  microbit-motordriver.ali  AD
+Z microbit.timehighspeed%s  microbit-timehighspeed.adb  microbit-timehighspeed.ali  AD
+W microbit.types%s	microbit-types.ads	microbit-types.ali
+W microbit.ultrasonic%s	microbit-ultrasonic.adb	microbit-ultrasonic.ali  ED
+Z nrf.gpio%s		nrf-gpio.adb		nrf-gpio.ali  AD
+Z system.relative_delays%s  s-reldel.adb	s-reldel.ali
+Z system.tasking.restricted.stages%s  s-tarest.adb  s-tarest.ali
+
+U mycontroller_empty%s	mycontroller_empty.ads	88b9df4c EB EE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W dfr0548%s		dfr0548.adb		dfr0548.ali
+W microbit%s		microbit.ads		microbit.ali
+W microbit.console%s	microbit-console.adb	microbit-console.ali
+W microbit.displayrt%s	microbit-displayrt.adb	microbit-displayrt.ali
+W microbit.motordriver%s  microbit-motordriver.adb  microbit-motordriver.ali
+Z microbit.timehighspeed%s  microbit-timehighspeed.adb  microbit-timehighspeed.ali
+W microbit.types%s	microbit-types.ads	microbit-types.ali
+W microbit.ultrasonic%s	microbit-ultrasonic.adb	microbit-ultrasonic.ali
+W nrf%s			nrf.ads			nrf.ali
+Z nrf.gpio%s		nrf-gpio.adb		nrf-gpio.ali
+Z system%s		system.ads		system.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.storage_elements%s  s-stoele.ads	s-stoele.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.restricted.stages%s  s-tarest.adb  s-tarest.ali
+T 3 3
+
+D ada.ads		20240605232314 76789da1 ada%s
+D a-except.ads		20240605232314 e7970cd9 ada.exceptions%s
+D a-finali.ads		20240605232314 bf4f806b ada.finalization%s
+D a-reatim.ads		20240605232314 cfe92427 ada.real_time%s
+D a-retide.ads		20240605232314 081cdaa4 ada.real_time.delays%s
+D a-stream.ads		20240605232314 119b8fb3 ada.streams%s
+D a-string.ads		20240605232314 90ac6797 ada.strings%s
+D a-sttebu.ads		20240605232314 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20240605232314 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20240605232314 9eaa38c6 ada.tags%s
+D a-unccon.ads		20240605232314 0e9b276f ada.unchecked_conversion%s
+D dfr0548.ads		20241016090040 73faa7eb dfr0548%s
+D hal.ads		20241016090042 2b42c80e hal%s
+D hal-gpio.ads		20241016090042 7f0c2ffe hal.gpio%s
+D hal-i2c.ads		20241016090042 416d8959 hal.i2c%s
+D hal-spi.ads		20241016090042 fe139819 hal.spi%s
+D hal-uart.ads		20241016090042 d58316b4 hal.uart%s
+D interfac.ads		20240605232314 9111f9c1 interfaces%s
+D microbit.ads		20241016090040 c5aa85df microbit%s
+D microbit-console.ads	20241016090040 0bb00661 microbit.console%s
+D microbit-displayrt.ads  20241016090040 09bd049f microbit.displayrt%s
+D microbit-motordriver.ads  20241028185748 6a338c58 microbit.motordriver%s
+D microbit-timehighspeed.ads  20241016090040 1d0073c3 microbit.timehighspeed%s
+D microbit-types.ads	20241016090040 e97b8e18 microbit.types%s
+D microbit-ultrasonic.ads  20241016090040 78c286a7 microbit.ultrasonic%s
+D microbit-ultrasonic.adb  20241016090040 b1778a38 microbit.ultrasonic%b
+D mycontroller_empty.ads  20241108095112 cd2dda99 mycontroller_empty%s
+D mycontroller_empty.adb  20241108095112 02540477 mycontroller_empty%b
+D nrf.ads		20241016090040 74cf72f5 nrf%s
+D nrf-device.ads	20241016090040 9c9916c4 nrf.device%s
+D nrf-gpio.ads		20241016090040 ab6d4598 nrf.gpio%s
+D nrf-rtc.ads		20241016090040 36d88130 nrf.rtc%s
+D nrf-spi_master.ads	20241016090040 a8ff49a3 nrf.spi_master%s
+D nrf-timers.ads	20241016090040 15fa58e3 nrf.timers%s
+D nrf-twi.ads		20241016090040 8de9adf3 nrf.twi%s
+D nrf-uart.ads		20241016090040 9fa4b8b9 nrf.uart%s
+D nrf_svd.ads		20241016090040 87ba21d7 nrf_svd%s
+D nrf_svd-rtc.ads	20241016090040 57c7ffc8 nrf_svd.rtc%s
+D nrf_svd-spi.ads	20241016090040 6e2ffb69 nrf_svd.spi%s
+D nrf_svd-timer.ads	20241016090040 ba50db1c nrf_svd.timer%s
+D nrf_svd-twi.ads	20241016090040 68301534 nrf_svd.twi%s
+D nrf_svd-uart.ads	20241016090040 83bcebc8 nrf_svd.uart%s
+D system.ads		20240605232314 124d8146 system%s
+D s-bb.ads		20240605232314 09e072ae system.bb%s
+D s-bbbopa.ads		20240605232314 f68efaf0 system.bb.board_parameters%s
+D s-bbbosu.ads		20240605232314 0f820a2a system.bb.board_support%s
+D s-bbcppr.ads		20240605232314 c529bbcc system.bb.cpu_primitives%s
+D s-bbinte.ads		20240605232314 cf617f22 system.bb.interrupts%s
+D s-bbmcpa.ads		20240605232314 5a35b8f4 system.bb.mcu_parameters%s
+D s-bbpara.ads		20240605232314 1ae191c6 system.bb.parameters%s
+D s-bbthre.ads		20240605232314 5f49caa9 system.bb.threads%s
+D s-bbthqu.ads		20240605232314 cd23d79e system.bb.threads.queues%s
+D s-bbtime.ads		20240605232314 ad086247 system.bb.time%s
+D s-finmas.ads		20240605232314 28987ac5 system.finalization_masters%s
+D s-finroo.ads		20240605232314 4ff27390 system.finalization_root%s
+D s-multip.ads		20240605232314 f33e0e35 system.multiprocessors%s
+D s-osinte.ads		20240605232314 229b14dd system.os_interface%s
+D s-parame.ads		20240605232314 07f3e19f system.parameters%s
+D s-pooglo.ads		20240605232314 91708d21 system.pool_global%s
+D s-putima.ads		20240605232314 17291fe4 system.put_images%s
+D s-reldel.ads		20240605232314 d2ec2544 system.relative_delays%s
+D s-retsta.ads		20240605232314 0f6b06cb system.return_stack%s
+D s-secsta.ads		20240605232314 bd894d4b system.secondary_stack%s
+D s-stalib.ads		20240605232314 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240605232314 ccded4e8 system.storage_elements%s
+D s-stopoo.ads		20240605232314 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20240605232314 a1861007 system.stream_attributes%s
+D s-tasinf.ads		20240605232314 801abd01 system.task_info%s
+D s-taspri.ads		20240605232314 37f162b4 system.task_primitives%s
+D s-taskin.ads		20240605232314 989d56fd system.tasking%s
+D s-tasres.ads		20240605232314 0c8ef6fb system.tasking.restricted%s
+D s-tarest.ads		20240605232314 c88b6d9a system.tasking.restricted.stages%s
+D s-traent.ads		20240605232314 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240605232314 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20240605232314 d9032363 system.wch_con%s
+D s-wchstw.ads		20240605232314 2d112c01 system.wch_stw%s
+G a e
+G c b b b [b mycontroller_empty 11 1 none]
+G c s s s [s mycontroller_empty 10 1 none]
+G c Z s b [senseTK mycontroller_empty 14 9 none]
+G c Z s s [senseTKVIP mycontroller_empty 14 4 none]
+G c Z s b [objectdetectionTK mycontroller_empty 16 9 none]
+G c Z s s [objectdetectionTKVIP mycontroller_empty 16 4 none]
+G c Z s b [actTK mycontroller_empty 20 9 none]
+G c Z s s [actTKVIP mycontroller_empty 20 4 none]
+G c Z s s [read mycontroller_empty__sensor_front 11 13 36_4]
+G c Z s s [initialize mycontroller_empty__sensor_front 15 14 36_4]
+G c Z s s [sendtriggerpulse mycontroller_empty__sensor_front 17 14 36_4]
+G c Z s s [waitforecho mycontroller_empty__sensor_front 19 13 36_4]
+G c Z s s [wait_for_end_blocking_using_polling_with_timeout mycontroller_empty__sensor_front 21 13 36_4]
+G c Z s s [wait_for_start_blocking_using_polling_with_timeout mycontroller_empty__sensor_front 23 13 36_4]
+G c Z s s [read mycontroller_empty__sensor_right 11 13 37_4]
+G c Z s s [initialize mycontroller_empty__sensor_right 15 14 37_4]
+G c Z s s [sendtriggerpulse mycontroller_empty__sensor_right 17 14 37_4]
+G c Z s s [waitforecho mycontroller_empty__sensor_right 19 13 37_4]
+G c Z s s [wait_for_end_blocking_using_polling_with_timeout mycontroller_empty__sensor_right 21 13 37_4]
+G c Z s s [wait_for_start_blocking_using_polling_with_timeout mycontroller_empty__sensor_right 23 13 37_4]
+G c Z s s [read mycontroller_empty__sensor_left 11 13 38_4]
+G c Z s s [initialize mycontroller_empty__sensor_left 15 14 38_4]
+G c Z s s [sendtriggerpulse mycontroller_empty__sensor_left 17 14 38_4]
+G c Z s s [waitforecho mycontroller_empty__sensor_left 19 13 38_4]
+G c Z s s [wait_for_end_blocking_using_polling_with_timeout mycontroller_empty__sensor_left 21 13 38_4]
+G c Z s s [wait_for_start_blocking_using_polling_with_timeout mycontroller_empty__sensor_left 23 13 38_4]
+G c Z s s [read mycontroller_empty__sensor_back 11 13 39_4]
+G c Z s s [initialize mycontroller_empty__sensor_back 15 14 39_4]
+G c Z s s [sendtriggerpulse mycontroller_empty__sensor_back 17 14 39_4]
+G c Z s s [waitforecho mycontroller_empty__sensor_back 19 13 39_4]
+G c Z s s [wait_for_end_blocking_using_polling_with_timeout mycontroller_empty__sensor_back 21 13 39_4]
+G c Z s s [wait_for_start_blocking_using_polling_with_timeout mycontroller_empty__sensor_back 23 13 39_4]
+G c Z s b [change_direction mycontroller_empty 83 14 none]
+G c Z s b [navigation mycontroller_empty 84 14 none]
+G c Z s b [rotatecar mycontroller_empty 85 14 none]
+G c Z s b [change_speed mycontroller_empty 88 13 none]
+G c Z s b [detectthreat mycontroller_empty 89 13 none]
+G r c none [b mycontroller_empty 11 1 none] [set nrf__gpio 100 14 none]
+G r c none [b mycontroller_empty 11 1 none] [delay_us microbit__timehighspeed 35 14 none]
+G r c none [b mycontroller_empty 11 1 none] [clear nrf__gpio 106 14 none]
+G r c none [b mycontroller_empty 11 1 none] [set nrf__gpio 94 13 none]
+G r c none [b mycontroller_empty 11 1 none] [drive microbit__motordriver 59 14 none]
+G r s gpio_point [s mycontroller_empty 10 1 none] [gpio_pointIP nrf__gpio 66 9 none]
+G r s gpio_configuration [s mycontroller_empty 10 1 none] [gpio_configurationIP nrf__gpio 58 9 none]
+G r c none [s mycontroller_empty 10 1 none] [configure_io nrf__gpio 117 14 none]
+G r c none [s mycontroller_empty 10 1 none] [clear nrf__gpio 106 14 none]
+G r i none [s mycontroller_empty 10 1 none] [ultrasonic microbit 9 18 none]
+G r c none [senseTK mycontroller_empty 14 9 none] [set nrf__gpio 100 14 none]
+G r c none [senseTK mycontroller_empty 14 9 none] [delay_us microbit__timehighspeed 35 14 none]
+G r c none [senseTK mycontroller_empty 14 9 none] [clear nrf__gpio 106 14 none]
+G r c none [senseTK mycontroller_empty 14 9 none] [set nrf__gpio 94 13 none]
+G r c none [actTK mycontroller_empty 20 9 none] [drive microbit__motordriver 59 14 none]
+G r c none [read mycontroller_empty__sensor_front 11 13 36_4] [set nrf__gpio 100 14 none]
+G r c none [read mycontroller_empty__sensor_front 11 13 36_4] [delay_us microbit__timehighspeed 35 14 none]
+G r c none [read mycontroller_empty__sensor_front 11 13 36_4] [clear nrf__gpio 106 14 none]
+G r c none [read mycontroller_empty__sensor_front 11 13 36_4] [set nrf__gpio 94 13 none]
+G r s gpio_configuration [initialize mycontroller_empty__sensor_front 15 14 36_4] [gpio_configurationIP nrf__gpio 58 9 none]
+G r c none [initialize mycontroller_empty__sensor_front 15 14 36_4] [configure_io nrf__gpio 117 14 none]
+G r c none [initialize mycontroller_empty__sensor_front 15 14 36_4] [clear nrf__gpio 106 14 none]
+G r c none [sendtriggerpulse mycontroller_empty__sensor_front 17 14 36_4] [set nrf__gpio 100 14 none]
+G r c none [sendtriggerpulse mycontroller_empty__sensor_front 17 14 36_4] [delay_us microbit__timehighspeed 35 14 none]
+G r c none [sendtriggerpulse mycontroller_empty__sensor_front 17 14 36_4] [clear nrf__gpio 106 14 none]
+G r c none [waitforecho mycontroller_empty__sensor_front 19 13 36_4] [set nrf__gpio 94 13 none]
+G r c none [waitforecho mycontroller_empty__sensor_front 19 13 36_4] [clear nrf__gpio 106 14 none]
+G r c none [waitforecho mycontroller_empty__sensor_front 19 13 36_4] [delay_us microbit__timehighspeed 35 14 none]
+G r c none [waitforecho mycontroller_empty__sensor_front 19 13 36_4] [set nrf__gpio 100 14 none]
+G r c none [wait_for_end_blocking_using_polling_with_timeout mycontroller_empty__sensor_front 21 13 36_4] [set nrf__gpio 94 13 none]
+G r c none [wait_for_end_blocking_using_polling_with_timeout mycontroller_empty__sensor_front 21 13 36_4] [delay_us microbit__timehighspeed 35 14 none]
+G r c none [wait_for_end_blocking_using_polling_with_timeout mycontroller_empty__sensor_front 21 13 36_4] [set nrf__gpio 100 14 none]
+G r c none [wait_for_start_blocking_using_polling_with_timeout mycontroller_empty__sensor_front 23 13 36_4] [set nrf__gpio 94 13 none]
+G r c none [wait_for_start_blocking_using_polling_with_timeout mycontroller_empty__sensor_front 23 13 36_4] [clear nrf__gpio 106 14 none]
+G r c none [read mycontroller_empty__sensor_right 11 13 37_4] [set nrf__gpio 100 14 none]
+G r c none [read mycontroller_empty__sensor_right 11 13 37_4] [delay_us microbit__timehighspeed 35 14 none]
+G r c none [read mycontroller_empty__sensor_right 11 13 37_4] [clear nrf__gpio 106 14 none]
+G r c none [read mycontroller_empty__sensor_right 11 13 37_4] [set nrf__gpio 94 13 none]
+G r s gpio_configuration [initialize mycontroller_empty__sensor_right 15 14 37_4] [gpio_configurationIP nrf__gpio 58 9 none]
+G r c none [initialize mycontroller_empty__sensor_right 15 14 37_4] [configure_io nrf__gpio 117 14 none]
+G r c none [initialize mycontroller_empty__sensor_right 15 14 37_4] [clear nrf__gpio 106 14 none]
+G r c none [sendtriggerpulse mycontroller_empty__sensor_right 17 14 37_4] [set nrf__gpio 100 14 none]
+G r c none [sendtriggerpulse mycontroller_empty__sensor_right 17 14 37_4] [delay_us microbit__timehighspeed 35 14 none]
+G r c none [sendtriggerpulse mycontroller_empty__sensor_right 17 14 37_4] [clear nrf__gpio 106 14 none]
+G r c none [waitforecho mycontroller_empty__sensor_right 19 13 37_4] [set nrf__gpio 94 13 none]
+G r c none [waitforecho mycontroller_empty__sensor_right 19 13 37_4] [clear nrf__gpio 106 14 none]
+G r c none [waitforecho mycontroller_empty__sensor_right 19 13 37_4] [delay_us microbit__timehighspeed 35 14 none]
+G r c none [waitforecho mycontroller_empty__sensor_right 19 13 37_4] [set nrf__gpio 100 14 none]
+G r c none [wait_for_end_blocking_using_polling_with_timeout mycontroller_empty__sensor_right 21 13 37_4] [set nrf__gpio 94 13 none]
+G r c none [wait_for_end_blocking_using_polling_with_timeout mycontroller_empty__sensor_right 21 13 37_4] [delay_us microbit__timehighspeed 35 14 none]
+G r c none [wait_for_end_blocking_using_polling_with_timeout mycontroller_empty__sensor_right 21 13 37_4] [set nrf__gpio 100 14 none]
+G r c none [wait_for_start_blocking_using_polling_with_timeout mycontroller_empty__sensor_right 23 13 37_4] [set nrf__gpio 94 13 none]
+G r c none [wait_for_start_blocking_using_polling_with_timeout mycontroller_empty__sensor_right 23 13 37_4] [clear nrf__gpio 106 14 none]
+G r c none [read mycontroller_empty__sensor_left 11 13 38_4] [set nrf__gpio 100 14 none]
+G r c none [read mycontroller_empty__sensor_left 11 13 38_4] [delay_us microbit__timehighspeed 35 14 none]
+G r c none [read mycontroller_empty__sensor_left 11 13 38_4] [clear nrf__gpio 106 14 none]
+G r c none [read mycontroller_empty__sensor_left 11 13 38_4] [set nrf__gpio 94 13 none]
+G r s gpio_configuration [initialize mycontroller_empty__sensor_left 15 14 38_4] [gpio_configurationIP nrf__gpio 58 9 none]
+G r c none [initialize mycontroller_empty__sensor_left 15 14 38_4] [configure_io nrf__gpio 117 14 none]
+G r c none [initialize mycontroller_empty__sensor_left 15 14 38_4] [clear nrf__gpio 106 14 none]
+G r c none [sendtriggerpulse mycontroller_empty__sensor_left 17 14 38_4] [set nrf__gpio 100 14 none]
+G r c none [sendtriggerpulse mycontroller_empty__sensor_left 17 14 38_4] [delay_us microbit__timehighspeed 35 14 none]
+G r c none [sendtriggerpulse mycontroller_empty__sensor_left 17 14 38_4] [clear nrf__gpio 106 14 none]
+G r c none [waitforecho mycontroller_empty__sensor_left 19 13 38_4] [set nrf__gpio 94 13 none]
+G r c none [waitforecho mycontroller_empty__sensor_left 19 13 38_4] [clear nrf__gpio 106 14 none]
+G r c none [waitforecho mycontroller_empty__sensor_left 19 13 38_4] [delay_us microbit__timehighspeed 35 14 none]
+G r c none [waitforecho mycontroller_empty__sensor_left 19 13 38_4] [set nrf__gpio 100 14 none]
+G r c none [wait_for_end_blocking_using_polling_with_timeout mycontroller_empty__sensor_left 21 13 38_4] [set nrf__gpio 94 13 none]
+G r c none [wait_for_end_blocking_using_polling_with_timeout mycontroller_empty__sensor_left 21 13 38_4] [delay_us microbit__timehighspeed 35 14 none]
+G r c none [wait_for_end_blocking_using_polling_with_timeout mycontroller_empty__sensor_left 21 13 38_4] [set nrf__gpio 100 14 none]
+G r c none [wait_for_start_blocking_using_polling_with_timeout mycontroller_empty__sensor_left 23 13 38_4] [set nrf__gpio 94 13 none]
+G r c none [wait_for_start_blocking_using_polling_with_timeout mycontroller_empty__sensor_left 23 13 38_4] [clear nrf__gpio 106 14 none]
+G r c none [read mycontroller_empty__sensor_back 11 13 39_4] [set nrf__gpio 100 14 none]
+G r c none [read mycontroller_empty__sensor_back 11 13 39_4] [delay_us microbit__timehighspeed 35 14 none]
+G r c none [read mycontroller_empty__sensor_back 11 13 39_4] [clear nrf__gpio 106 14 none]
+G r c none [read mycontroller_empty__sensor_back 11 13 39_4] [set nrf__gpio 94 13 none]
+G r s gpio_configuration [initialize mycontroller_empty__sensor_back 15 14 39_4] [gpio_configurationIP nrf__gpio 58 9 none]
+G r c none [initialize mycontroller_empty__sensor_back 15 14 39_4] [configure_io nrf__gpio 117 14 none]
+G r c none [initialize mycontroller_empty__sensor_back 15 14 39_4] [clear nrf__gpio 106 14 none]
+G r c none [sendtriggerpulse mycontroller_empty__sensor_back 17 14 39_4] [set nrf__gpio 100 14 none]
+G r c none [sendtriggerpulse mycontroller_empty__sensor_back 17 14 39_4] [delay_us microbit__timehighspeed 35 14 none]
+G r c none [sendtriggerpulse mycontroller_empty__sensor_back 17 14 39_4] [clear nrf__gpio 106 14 none]
+G r c none [waitforecho mycontroller_empty__sensor_back 19 13 39_4] [set nrf__gpio 94 13 none]
+G r c none [waitforecho mycontroller_empty__sensor_back 19 13 39_4] [clear nrf__gpio 106 14 none]
+G r c none [waitforecho mycontroller_empty__sensor_back 19 13 39_4] [delay_us microbit__timehighspeed 35 14 none]
+G r c none [waitforecho mycontroller_empty__sensor_back 19 13 39_4] [set nrf__gpio 100 14 none]
+G r c none [wait_for_end_blocking_using_polling_with_timeout mycontroller_empty__sensor_back 21 13 39_4] [set nrf__gpio 94 13 none]
+G r c none [wait_for_end_blocking_using_polling_with_timeout mycontroller_empty__sensor_back 21 13 39_4] [delay_us microbit__timehighspeed 35 14 none]
+G r c none [wait_for_end_blocking_using_polling_with_timeout mycontroller_empty__sensor_back 21 13 39_4] [set nrf__gpio 100 14 none]
+G r c none [wait_for_start_blocking_using_polling_with_timeout mycontroller_empty__sensor_back 23 13 39_4] [set nrf__gpio 94 13 none]
+G r c none [wait_for_start_blocking_using_polling_with_timeout mycontroller_empty__sensor_back 23 13 39_4] [clear nrf__gpio 106 14 none]
+G r c none [change_direction mycontroller_empty 83 14 none] [drive microbit__motordriver 59 14 none]
+G r c none [rotatecar mycontroller_empty 85 14 none] [drive microbit__motordriver 59 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 27|1r6 1r25 28|1r6 1r25
+X 4 a-reatim.ads
+40K13*Real_Time 181e18 27|1w10 1r29 28|1w10 1r29
+50M9*Time<53|46M9> 28|14r18 38r20 58r17 235r25
+60I9*Time_Span<53|81I9> 27|23r18 24r18 25r18 28|15r18 39r16 59r18 234r28
+67V13*Clock{50M9}<53|134p13> 28|19s21 43s24 63s21 242s29
+71V14*"+"{50M9} 28|31s30 50s33 71s30 243s38
+125V13*Microseconds{60I9} 28|234s41
+127V13*Milliseconds{60I9} 27|23s31 24s31 25s31
+X 12 dfr0548.ads
+35K9*DFR0548 92e12 27|6w6 28|6w6
+X 14 hal-gpio.ads
+47h9*GPIO_Point
+X 15 hal-i2c.ads
+48h9*I2C_Port
+X 16 hal-spi.ads
+48h9*SPI_Port
+X 17 hal-uart.ads
+48h9*UART_Port
+X 19 microbit.ads
+57K9*MicroBit 114e13 27|2r6 2r28 3r6 3r32 4r6 5r6 5r26 7r5 8r6 28|2r6 2r28
+. 3r6 3r32 4r6 5r6 5r26 7r5 8r6
+58r4*MB_P0=58:53{31|66R9} 27|36r77
+59r4*MB_P1=59:53{31|66R9} 27|36r58
+60r4*MB_P2=60:53{31|66R9} 27|37r77
+66r4*MB_P8=66:53{31|66R9} 27|37r58
+71r4*MB_P13=71:53{31|66R9} 27|38r78
+72r4*MB_P14=72:53{31|66R9} 27|38r58
+73r4*MB_P15=73:53{31|66R9} 27|39r78
+74r4*MB_P16=74:53{31|66R9} 27|39r58
+X 20 microbit-console.ads
+32K18*Console 49e21 27|2w15 2r37 28|2w15 2r37
+X 21 microbit-displayrt.ads
+32K18*DisplayRT 74e23 27|8w15 28|8w15
+X 22 microbit-motordriver.ads
+34K18*MotorDriver 73e25 27|3w15 3r41 28|3w15 3r41 86r37 87r37 88r37 89r37
+. 90r37 91r37 92r37 93r37 94r37 95r37 96r37
+36n24*Forward{36E9} 28|86r55
+37n24*Backward{36E9} 28|87r55
+38n24*Lateral_Left{36E9} 28|90r55
+39n24*Lateral_Right{36E9} 28|91r55
+40n24*Forward_Left{36E9} 28|92r55
+41n24*Forward_Right{36E9} 28|93r55
+42n24*Backward_Left{36E9} 28|88r55
+43n24*Backward_Right{36E9} 28|89r55
+46n24*Turning_Left{36E9} 28|94r55
+47n24*Turning_Right{36E9} 28|95r55
+50n24*Stop{36E9} 28|96r55
+52R9*Speeds 57e14 27|88r50 28|106r50 107r15
+59U14*Drive 28|86s49 87s49 88s49 89s49 90s49 91s49 92s49 93s49 94s49 95s49
+. 96s49
+X 24 microbit-types.ads
+1K18*Types 5e19 27|5w15 5r35 28|5w15 5r35
+3I11*Distance_cm<integer> 27|31r22 32r22 33r22 34r22 89r62 28|128r63 129r17
+X 25 microbit-ultrasonic.ads
+6r4 Trigger_Pin{31|66R9} 27|36r43 37r43 38r43 39r43
+7r4 Echo_Pin{31|66R9} 27|36r65 37r65 38r66 39r66
+9k18*Ultrasonic 25e24 27|4w15 36r32 37r32 38r32 39r32 28|4w15
+11V13*Read{24|3I11} 28|23s41[27|36] 24s41[27|37] 25s40[27|38] 26s40[27|39]
+X 27 mycontroller_empty.ads
+10K9*MyController_empty 72E7 103l5 103e23 28|11b14 267l5 267t23
+14t9*Sense 28|13b14 33l8 33t13
+16t9*objectDetection 28|37b14 54l8 54t23
+20t9*Act 28|57b14 75l8 75t11
+23i4*sensePeriod{4|60I9} 28|15r31
+24i4*periodThink{4|60I9} 28|39r29
+25i4*periodAct{4|60I9} 28|59r31
+31i4*distance_front{24|3I11} 28|23m10 132r32
+32i4*distance_right{24|3I11} 28|24m10 133r32
+33i4*distance_left{24|3I11} 28|25m10 134r32
+34i4*distance_back{24|3I11} 28|26m10 135r32
+36K12*sensor_front[25|9] 28|23r28
+37K12*sensor_right[25|9] 28|24r28
+38K12*sensor_left[25|9] 28|25r28
+39K12*sensor_back[25|9] 28|26r28
+43E12*Direction_type 56e25 72r24 77r24 83r38 28|82r39
+43n31*goForward{43E12} 28|86r18 149r31 213r31
+44n24*goBackward{43E12} 28|87r18 160r31 182r31 205r31 221r31
+45n24*backLeft{43E12} 28|88r18
+46n24*backRight{43E12} 28|89r18
+47n24*lateralLeft{43E12} 28|90r18 168r31
+48n24*lateralRight{43E12} 28|91r18 190r31
+49n24*diagonalLeft{43E12} 28|92r18
+50n24*diagonalRight{43E12} 28|93r18
+51n24*turnLeft{43E12} 28|94r18 240r30
+52n24*turnRight{43E12} 28|95r18 238r30
+53n24*stopping{43E12} 28|96r18 156r31 178r31 201r31
+58E12*Speed_type 61e35 73r24 78r24 83r58 88r31 28|82r59 106r31
+58n27*SlowSpeed{58E12} 28|111r24 161r31
+59n25*MediumSpeed{58E12} 28|114r24 169r31 183r31 191r31 206r31 214r31 238r41
+. 240r40
+60n25*FullSpeed{58E12} 28|117r24 150r31 222r31
+61n25*StopSpeed{58E12} 28|120r24 157r31 179r31 202r31
+63E12*Emotion_type 67e33
+63n29*sad{63E12}
+64n28*happy{63E12}
+65n28*ups{63E12}
+66n28*right{63E12}
+67n28*left{63E12}
+69E12*Sensor_type 69e39 89r39 28|128r40
+69n28*F{69E12} 28|132r27 146r27 155r30 167r57 177r57 189r57 200r57 212r57
+. 220r33
+69n31*L{69E12} 28|134r27 146r83 155r86 167r85 177r86 189r29 189r86 200r29
+. 212r114 220r90
+69n34*R{69E12} 28|133r27 146r55 155r58 167r29 177r29 200r86 212r86 220r61
+69n37*B{69E12} 28|135r27 146r111 155r114 167r113 177r114 189r114 200r114
+. 212r29 220r118
+72e7 dir{43E12}
+73e7 s{58E12}
+74I15 Angle{integer} 75r24 85r39 28|231r39
+75i7 setAngle{74I15} 28|68r20 147m13 172m13 194m13
+76b7 setBool{boolean} 28|68r30 148m13 173m13 195m13
+77e7 setDirection{43E12} 28|149m13 156m13 160m13 168m13 178m13 182m13 190m13
+. 201m13 205m13 213m13 221m13
+78e7 setSpeed{58E12} 28|150m13 157m13 161m13 169m13 179m13 183m13 191m13
+. 202m13 206m13 214m13 222m13
+83U14 Change_Direction 83>32 83>54 28|82b15 102l8 102t24 238s13 240s13
+83e32 dir{43E12} 28|82b33 85r15
+83e54 s{58E12} 28|82b55 86r86 87r86 88r86 89r86 90r86 91r86 92r86 93r86 94r86
+. 95r86 96r86
+84U14 Navigation 84=25 28|46s10 141b14 227l11 227t21
+84b25 flag{boolean} 28|141b25 154m13 164m13 175m13 186m13 198m13 209m13 217m13
+. 224m13
+85U14 rotateCar 85>24 85>46 28|68s10 231b14 245l8 245t17
+85i24 chosen_angle{74I15} 28|231b24 233r43
+85b46 clockwise{boolean} 28|231b46 237r13
+88V13 Change_Speed{22|52R9} 88>27 28|86s73 87s73 88s73 89s73 90s73 91s73
+. 92s73 93s73 94s73 95s73 96s73 106b13 125l9 125t21
+88e27 s{58E12} 28|106b27 110r15
+89V13 detectThreat{boolean} 89>26 89>52 28|128b14 137l8 137t20 146s14 146s42
+. 146s70 146s98 155s17 155s45 155s73 155s101 167s16 167s44 167s72 167s100
+. 177s16 177s44 177s73 177s101 189s16 189s44 189s73 189s101 200s16 200s44
+. 200s73 200s101 212s16 212s44 212s73 212s101 220s20 220s48 220s77 220s105
+89e26 sensorSide{69E12} 28|128b27 131r27
+89i52 distMax{24|3I11} 28|128b53 136r25
+X 28 mycontroller_empty.adb
+14m7 myClock{4|50M9} 19m10 31r22
+15i7 period{4|60I9} 31r32
+38m7 clockStart{4|50M9} 43m10 50r22
+39i7 period{4|60I9} 50r35
+40b7 flag{boolean} 46m21 46r21
+58m7 myClock{4|50M9} 63m10 71r22
+59i7 period{4|60I9} 71r32
+107r7 speed{22|52R9} 112m22 115m22 118m22 121m22 124r14
+129i7 distNow{24|3I11} 131m10 136r14
+232i7 angleChangeDuration{integer} 233r58
+233i7 calcultedAngleDuration{integer} 234r55
+234i7 angleDurationTotal{4|60I9} 243r40
+235m7 startOfRotation{4|50M9} 242m10 243r22
+X 53 s-bbtime.ads
+46M9*Time
+81I9*Time_Span<long_long_integer>
+X 63 s-secsta.ads
+46P9*SS_Stack_Ptr(43R9)
+X 70 s-taskin.ads
+398V13*Get_Sec_Stack{63|46P9} 399i<c,__gnat_get_secondary_stack>22
+X 72 s-tarest.ads
+232U14*Activate_All_Tasks_Sequential 233i<c,__gnat_activate_all_tasks>22
+
