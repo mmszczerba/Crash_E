@@ -69,7 +69,7 @@ package body MyController_empty is
          if rotateFirst then
             rotateCar(setAngle, setBool);
             Change_Direction(setDirection, setSpeed);
-         elsif not rotateCar then
+         elsif not rotateCar then --her skal det endres
             Change_Direction(setDirection, setSpeed);
             rotateCar(setAngle, setBool);
          elsif noRotate then
