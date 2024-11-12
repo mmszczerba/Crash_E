@@ -27,7 +27,7 @@ RV NO_IMPLICIT_LOOPS
 RV NO_ELABORATION_CODE
 RV NO_OBSOLESCENT_FEATURES
 
-U ada_main%b		b__main.adb		7885f214 OO PK IL
+U ada_main%b		b__main.adb		c826b844 OO PK IL
 Z system%s		system.ads		system.ali
 
 U ada_main%s		b__main.ads		2b3938e5 EE NE OO PK IL
@@ -35,8 +35,8 @@ W system%s		system.ads		system.ali
 W system.parameters%s	s-parame.adb		s-parame.ali
 W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 
-D b__main.ads		20241108095116 830e1577 ada_main%s
-D b__main.adb		20241108095116 fb8be763 ada_main%b
+D b__main.ads		20241112152154 830e1577 ada_main%s
+D b__main.adb		20241112152154 4b28ad33 ada_main%b
 D system.ads		20240605232314 124d8146 system%s
 D s-parame.ads		20240605232314 07f3e19f system.parameters%s
 D s-secsta.ads		20240605232314 bd894d4b system.secondary_stack%s
@@ -46,7 +46,7 @@ G c Z s b [adainit ada_main 19 14 none]
 G c Z s b [adafinal ada_main 22 14 none]
 G c Z s b [main ada_main 25 14 none]
 X 1 b__main.ads
-6K9*ada_main 283l5 283e13 2|7b14 261l5 261t13
+6K9*ada_main 281l5 281e13 2|7b14 261l5 261t13
 9a4*GNAT_Version{string} 11r22 13r54
 13m4*GNAT_Version_Address{3|80M9} 14r22
 16a4*Ada_Main_Program_Name{string} 17r22 2|238r52
@@ -71,7 +71,7 @@ X 2 b__main.adb
 23i4 E205{short_integer} 23m46 23r46 172m7 172r15
 24i4 E165{short_integer} 24m46 24r46 174m7 174r15
 25i4 E223{short_integer} 25m46 25r46 176m7 176r15
-26i4 E251{short_integer} 26m46 26r46 178m7 178r15
+26i4 E249{short_integer} 26m46 26r46 178m7 178r15
 27i4 E221{short_integer} 27m46 27r46 179m7 179r15
 28i4 E156{short_integer} 28m46 28r46 181m7 181r15
 29i4 E193{short_integer} 29m46 29r46 183m7 183r15

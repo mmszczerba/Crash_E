@@ -23,7 +23,7 @@ package body ada_main is
    E205 : Short_Integer; pragma Import (Ada, E205, "ada__strings__unbounded_E");
    E165 : Short_Integer; pragma Import (Ada, E165, "system__pool_global_E");
    E223 : Short_Integer; pragma Import (Ada, E223, "system__tasking__protected_objects_E");
-   E251 : Short_Integer; pragma Import (Ada, E251, "system__tasking__restricted__stages_E");
+   E249 : Short_Integer; pragma Import (Ada, E249, "system__tasking__restricted__stages_E");
    E221 : Short_Integer; pragma Import (Ada, E221, "generic_timers_E");
    E156 : Short_Integer; pragma Import (Ada, E156, "hal__gpio_E");
    E193 : Short_Integer; pragma Import (Ada, E193, "hal__i2c_E");
@@ -175,7 +175,7 @@ package body ada_main is
       System.Tasking.Protected_Objects'Elab_Body;
       E223 := E223 + 1;
       System.Tasking.Restricted.Stages'Elab_Body;
-      E251 := E251 + 1;
+      E249 := E249 + 1;
       E221 := E221 + 1;
       HAL.GPIO'ELAB_SPEC;
       E156 := E156 + 1;

@@ -1,1 +1,1 @@
-C:\usn\IntelligentRTSproject\Code\libs\Ada_Drivers_Library\examples\MicroBit_v2\ravenscar\Crash_E_sense_think_act\src\mycontroller_empty.adb:286:01: error: end of file expected, file can have only one compilation unit
+C:\usn\IntelligentRTSproject\Code\libs\Ada_Drivers_Library\examples\MicroBit_v2\ravenscar\Crash_E_sense_think_act\src\mycontroller_empty.adb:266:10: warning: potentially blocking operation in protected operation [enabled by default]
