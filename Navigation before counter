@@ -1,0 +1,95 @@
+ procedure Navigation(flag : in out Boolean; counter : in out Integer) is -- c is for clockwise
+
+      begin
+
+         -- if there is a threat on the front
+         if (detectThreat(F, 15) and not detectThreat(R, 15) and not detectThreat(L, 15) and not detectThreat(B, 15)) then
+            rotateFirst    := True;
+            setAngle       := 90;
+            setBool        := True; -- -- we rotate the car clockise, +90 degrees
+            setDirection   := goForward;
+            setSpeed       := FullSpeed;
+            --  rotateCar(90, True);
+            --  Set_Direction(goForward, FullSpeed);
+            delay 0.6;
+            flag           := True;
+         elsif (detectThreat(F, 10) and not detectThreat(R, 10) and not detectThreat(L, 10) and not detectThreat(B, 10)) then
+            noRotate       := True;
+            setDirection   := stopping;
+            setSpeed       := StopSpeed;
+            -- Set_Direction(stopping, StopSpeed);
+            delay 0.2; -- stop for 0.2 seconds then go slowly backward
+            setDirection   := goBackward;
+            setSpeed       := SlowSpeed;
+            -- Set_Direction(goBackward, SlowSpeed);
+            delay 0.5;
+            flag           := True;
+
+         -- if there is a threat on the right
+         elsif(detectThreat(R, 15) and not detectThreat(F, 15) and not detectThreat(L, 15) and not detectThreat(B, 15)) then
+            rotateCar      := False;
+            setDirection   := lateralLeft;
+            setSpeed       := MediumSpeed;
+            -- Set_Direction(lateralLeft, MediumSpeed);
+            delay 0.5;
+            setAngle       := 45;
+            setBool        := False;
+            -- rotateCar(45, False);
+            flag           := True;
+
+         elsif(detectThreat(R, 10) and not detectThreat(F, 10) and not  detectThreat(L, 10) and not detectThreat(B, 10)) then
+            noRotate       := True;
+            setDirection   := stopping;
+            setSpeed       := StopSpeed;
+            -- Set_Direction(Stopping, StopSpeed);
+            delay 0.2;
+            setDirection   := goBackward;
+            setSpeed       := MediumSpeed;
+            -- Set_Direction(goBackward, MediumSpeed);
+            delay 0.5;
+            flag           := True;
+
+         -- if there is a threat on the left
+         elsif(detectThreat(L, 15) and not detectThreat(F, 10) and not  detectThreat(L, 10) and not detectThreat(B, 10)) then
+            rotateFirst    := False;
+            setDirection   := lateralRight;
+            setSpeed       := MediumSpeed;
+            -- Set_Direction(lateralRight, MediumSpeed);
+            delay 0.5;
+            setAngle       := 45;
+            setBool        := True;
+            -- rotateCar(45, True);
+            delay 0.5;
+            flag           := True;
+
+         elsif(detectThreat(L, 10) and not detectThreat(F, 10) and not  detectThreat(R, 10) and not detectThreat(B, 10)) then
+            noRotate       := True;
+            setDirection   := stopping;
+            setSpeed       := StopSpeed;
+            -- Set_Direction(Stopping, StopSpeed);
+            delay 0.2;
+            setDirection   := goBackward;
+            setSpeed       := MediumSpeed;
+            -- Set_Direction(goBackward, MediumSpeed);
+            delay 0.5;
+            flag           := True;
+
+         -- if there is a threat in the back
+         elsif(detectThreat(B, 15) and not detectThreat(F, 10) and not  detectThreat(R, 10) and not detectThreat(L, 10)) then
+            noRotate       := True;
+            setDirection   := goForward;
+            setSpeed       := MediumSpeed;
+            -- Set_Direction(goForward, FullSpeed);
+            delay 0.2;
+            flag := True;
+
+         -- if there is no threat near :)
+         elsif(not detectThreat(F, 15) and not detectThreat(R, 10) and not  detectThreat(L, 10) and not detectThreat(B, 10)) then
+            noRotate       := True;
+            setDirection   := goForward;
+            setSpeed       := FullSpeed;
+            -- Set_Direction(goForward, FullSpeed);
+            flag           := True;
+
+         end if;
+      end Navigation;
