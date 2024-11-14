@@ -377,7 +377,7 @@ package body MyController_empty is
                      begin
                         should_Stop := True;
                         speed := (3000, 3000, 3000, 3000);
-                        MotorDriver.Drive(Lateral_Right, speed);
+                        MotorDriver.Drive(Right, speed);
                         Put_Line("Drive lateral right");
                         counter := 0;
                      end;
@@ -385,7 +385,7 @@ package body MyController_empty is
                   begin
                      should_Stop := True;
                      speed := (3000, 3000, 3000, 3000);
-                     MotorDriver.Drive(Lateral_Left, speed);
+                     MotorDriver.Drive(Left, speed);
                      Put_Line("Drive lateral left");
                      counter := 0;
                   end;
@@ -474,18 +474,18 @@ package body MyController_empty is
 
    task body act is
       Start, Stop : Time;
-      elapsed : Time_Span;
-      myClock : Time;
+     -- elapsed : Time_Span;
+      -- myClock : Time;
    begin
       loop
-         Start := Clock;
+         -- Start := Clock;
          myClock := Clock;
 
          ActOutDecision.ExecuteDecision;
          -- ActOutDecision.PrintCounter;
          Stop := Clock;
-         elapsed := Stop - Start;
-         Put_Line ("Elapsed time" & To_Duration(elapsed)'Image);
+         -- elapsed := Stop - Start;
+         -- Put_Line ("Elapsed time" & To_Duration(elapsed)'Image);
 
          delay until myClock + Milliseconds(60);
       end loop;
