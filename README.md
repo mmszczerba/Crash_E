@@ -22,4 +22,7 @@ Sensor mapping:
 - Sensor left: Trigger-> 13, Echo -> 12
 - Sensor back: Trigger -> 14, Trigger -> 2
 
+# Note
+Lateral_Right or Lateral_Left does not exist in this code, this was not changed at the time because there are issues with GitHub and VS Code. 
+
 
