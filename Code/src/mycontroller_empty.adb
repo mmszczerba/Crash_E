@@ -377,7 +377,7 @@ package body MyController_empty is
                      begin
                         should_Stop := True;
                         speed := (3000, 3000, 3000, 3000);
-                        MotorDriver.Drive(Right, speed);
+                        MotorDriver.Drive(Lateral_Right, speed);
                         Put_Line("Drive lateral right");
                         counter := 0;
                      end;
@@ -385,7 +385,7 @@ package body MyController_empty is
                   begin
                      should_Stop := True;
                      speed := (3000, 3000, 3000, 3000);
-                     MotorDriver.Drive(Left, speed);
+                     MotorDriver.Drive(Lateral_Right, speed);
                      Put_Line("Drive lateral left");
                      counter := 0;
                   end;
