@@ -1,4 +1,5 @@
 with MicroBit.Console; use MicroBit.Console;
+with MyController_empty;
 use MicroBit;
 -- USN PROJECT TEMPLATE INTELLIGENT REAL-TIME SYSTEMS
 -- Project name: [project name]
